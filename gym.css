@@ -1,0 +1,90 @@
+body {
+    /* font-family: ; */
+    background-image: url(current.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+nav {
+    box-sizing: border-box;
+    border: 2px solid greenyellow;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: center;
+}
+
+nav h1 {
+    margin-left: 18px;
+    cursor: pointer;
+    font-size: 30px;
+    color: black;
+}
+
+nav h1 span {
+    color: greenyellow;
+    font-size: 30px;
+}
+
+nav ul {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 10px 20px;
+    padding: 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+nav ul li a:hover {
+    padding: 12px;
+    background-color: greenyellow;
+    transition: 1s;
+}
+
+/* nav .btn {
+    color: black;
+    text-decoration: none;
+    margin-right: 25px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid greenyellow;
+    padding: 12px;
+    background-color: greenyellow;
+} */
+
+.content h1{
+    position: absolute;
+    margin-top: 25%;
+    margin-left: 20%;
+    color: white;
+    font-size: 45px;
+}
+
+.content span{
+    color: greenyellow;
+}
+
+.join {
+    position: absolute;
+    margin-left: 34%;
+    margin-top: 35%;
+    font-size: 20px;
+}
+
+.join a{
+    text-decoration: none;
+    color: white;
+    padding: 17px;
+    border: 2px solid greenyellow;
+}
